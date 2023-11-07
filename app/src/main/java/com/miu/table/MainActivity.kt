@@ -41,8 +41,8 @@ class MainActivity : AppCompatActivity() {
                 tableRow.addView(versionTextView);
                 tableRow.addView(codeTextView);
                 tableLayout.addView(tableRow);
-//                binding.version.text.clear();
-//                binding.code.text.clear();
+                binding.version.text.clear();
+                binding.code.text.clear();
             }
         }
     }
